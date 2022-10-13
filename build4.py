@@ -1,2 +1,3 @@
 import subprocess
-print(subprocess.run(["~/bin/build_script4.sh","arguments"], shell=True))
+def run_script():
+    script= (subrocess.run(['~/bin/build_script4.sh'], shell=True))
